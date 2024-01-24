@@ -203,4 +203,30 @@
     isFirst = !isFirst;
   });
 
+  const myLogo = document.getElementById('logodark');
+
+  let esPrim = true;
+
+  document.getElementById("theme-toggle").addEventListener("click", function() {
+    if (esPrim) {
+      myLogo.className = "bi bi-sun";
+    } else {
+      myLogo.className = "bx bx-moon";
+    }
+    esPrim = !esPrim;
+  });
+
+  const elModo = document.getElementById('modo');
+
+  let esClar = true;
+
+  document.getElementById("theme-toggle").addEventListener("click", function() {
+    if (esClar) {
+      elModo.innerHTML = "Modo Claro";
+    } else {
+      elModo.innerHTML = "Modo Oscuro";
+    }
+    esClar = !esClar;
+  });
+
 })()
