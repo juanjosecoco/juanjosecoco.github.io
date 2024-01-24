@@ -209,9 +209,9 @@
 
   document.getElementById("theme-toggle").addEventListener("click", function() {
     if (esPrim) {
-      myLogo.className = "bi bi-sun";
-    } else {
       myLogo.className = "bx bx-moon";
+    } else {
+      myLogo.className = "bi bi-sun";
     }
     esPrim = !esPrim;
   });
@@ -222,9 +222,9 @@
 
   document.getElementById("theme-toggle").addEventListener("click", function() {
     if (esClar) {
-      elModo.innerHTML = "Modo Claro";
-    } else {
       elModo.innerHTML = "Modo Oscuro";
+    } else {
+      elModo.innerHTML = "Modo Claro";
     }
     esClar = !esClar;
   });
