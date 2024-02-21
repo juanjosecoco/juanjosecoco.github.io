@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TUTELA GENERATOR APP</title>
+    <link rel="stylesheet" href="../DDP_WEBAPP/style_DDP.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div style="color: white; padding: 10px; font-family: Arial, Helvetica, sans-serif; font-size: larger;">Genera tu Tutela.</div>
+        <div style="color: white; padding: 20px; font-family: Arial, Helvetica, sans-serif; font-size: larger;">Introduce la información requerida:</div>
+        <input type="text" id="destinatario" placeholder="Nombre e Identificación del Tutelado">
+        <input type="text" id="nombre" placeholder="Nombre quien interpone la Tutela">
+        <input type="text" id="identificacion" placeholder="Identificacion de quien envia la Tutela">
+        <input type="text" id="hechos" placeholder="Narre los Hechos que dieron origen a la Peticion">
+        <input type="text" id="peticion" placeholder="Narre si la omisión de respuesta, ha generado consecuencias">
+        <input type="text" id="anexos" placeholder="Mencione los Anexos y Pruebas que se quieran incluir en la Tutela (Inlcuir la Petición)">
+        <input type="text" id="notificaciones" placeholder="Escriba la Direccion, Telefono y/o Correo Electronico para recibir Notificaciones">
+        <button id="preview">Previsualizar Documento</button>
+        <button id="download">Descargar Documento</button>
+        <div style="color: white; padding: 20px; font-family: Arial, Helvetica, sans-serif; font-size: small;">Esta funcionalidad actualmente solo genera Tutelas para Derechos de Petición. Si no has generado tu DDP generalo con DDP GENERATOR.</div>
+        <div style="color: white; padding: 20px; font-family: Arial, Helvetica, sans-serif; font-size: small;"> Presiona el siguiente botón para generar una Derecho de Petición.</div>
+        <button id="startButton" onclick="location.href='../DDP_WEBAPP/index_DDP.html'">DDP GENERATOR</button>
+        <div style="color: rgba(128, 128, 128, 0.494); padding: 60px 20px 0px 20px ; font-family: Arial, Helvetica, sans-serif; font-size: smaller;">Desarrollado por: JuanJoseCocoApps</div>
+    </div>
+    <script src="script_TUT.js"></script>
+</body>
+</html>
