@@ -12,14 +12,14 @@ body {
 .card {
     background-color: #212121;
     width: 90%;
-    height: 90%;
+    height: fit-content;
     border-radius: 10px;
     padding: 50px;
     box-sizing: border-box;
 }
 .card input {
     width: 100%;
-    height: 7%;
+    height: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
